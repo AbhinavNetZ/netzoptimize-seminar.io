@@ -5,8 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-website_url="https://testerscafe.in/"
-
+website_url=input("Enter the webpage url here: ")
 
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
