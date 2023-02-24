@@ -46,10 +46,9 @@ for link in links:
     else:
         errors.append(f"{url} the href is blank. \nSource code is:{link.get_attribute('outerHTML')}\n\n")
 if not errors:
-    driver.quit()
-    # Close the web driver
     assert True
 else:
     logging.error(("URLS:\n\n{}".format("".join(errors)))) #Log all the errors in format
-    driver.quit()
-    # Close the web driver
+
+driver.quit()
+# Close the web driver
