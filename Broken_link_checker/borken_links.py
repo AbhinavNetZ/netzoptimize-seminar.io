@@ -51,3 +51,5 @@ if not errors:
     assert True
 else:
     logging.error(("URLS:\n\n{}".format("".join(errors)))) #Log all the errors in format
+    driver.quit()
+    # Close the web driver
