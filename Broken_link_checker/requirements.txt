@@ -1,0 +1,2 @@
+Requests==2.28.2
+Selenium==4.8.2
