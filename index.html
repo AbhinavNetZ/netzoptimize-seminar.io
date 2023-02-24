@@ -1,26 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Netzoptimize Seminar</title>
     <style>
-        h1 {
-            color: red;
+      @keyframes animation {
+        0% {
+          transform: rotateY(0turn);
         }
-    </style>
-</head>
+        50% {
+          transform: rotateY(0.5turn);
+        }
+        100% {
+          transform: rotateY(1turn);
+        }
+      }
 
-<body>
+      h1 {
+        color: red;
+        animation: animation 3s infinite alternate-reverse;
+      }
+
+      @keyframes bodyANI {
+        0% {
+          background-color: red;
+        }
+        20% {
+          background-color: green;
+        }
+        40% {
+          background-color: blue;
+        }
+        60% {
+          background-color: pink;
+        }
+        80% {
+          background-color: orange;
+        }
+        100% {
+          background-color: khaki;
+        }
+      }
+
+      body {
+        animation: bodyANI 1s infinite;
+      }
+    </style>
+  </head>
+
+  <body>
     <h1>NetzOptimize</h1>
 
     <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis similique iusto ratione tenetur sed veniam
-        nostrum, aliquam facere accusantium a repellendus cupiditate deserunt quidem repudiandae maiores. Tenetur
-        quisquam minima totam.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+      similique iusto ratione tenetur sed veniam nostrum, aliquam facere
+      accusantium a repellendus cupiditate deserunt quidem repudiandae maiores.
+      Tenetur quisquam minima totam.
     </p>
-</body>
-
+  </body>
 </html>
