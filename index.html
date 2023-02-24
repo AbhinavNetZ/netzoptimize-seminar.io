@@ -5,59 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Netzoptimize Seminar</title>
-    <style>
-      @keyframes animation {
-        0% {
-          transform: rotateY(0turn);
-        }
-        50% {
-          transform: rotateY(0.5turn);
-        }
-        100% {
-          transform: rotateY(1turn);
-        }
-      }
-
-      h1 {
-        color: red;
-        animation: animation 3s infinite alternate-reverse;
-      }
-
-      @keyframes bodyANI {
-        0% {
-          background-color: red;
-        }
-        20% {
-          background-color: green;
-        }
-        40% {
-          background-color: blue;
-        }
-        60% {
-          background-color: pink;
-        }
-        80% {
-          background-color: orange;
-        }
-        100% {
-          background-color: khaki;
-        }
-      }
-
-      body {
-        animation: bodyANI 1s infinite;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
+   
+    
   </head>
 
   <body>
     <h1>NetzOptimize</h1>
-
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-      similique iusto ratione tenetur sed veniam nostrum, aliquam facere
-      accusantium a repellendus cupiditate deserunt quidem repudiandae maiores.
-      Tenetur quisquam minima totam.
-    </p>
+    <div id="game" class="game">
+      <div id="score" class="score">0</div>
+      <div id="start-message" class="start-message">Press any key to start</div>
+      <img src="assets/ground.png" class="ground">
+      <img src="assets/ground.png" class="ground">
+      <img src="assets/dino-stationary.png" id="dino" class="dino">
+      <div id="gameover-message" class="gameover-message hide">
+         <p>Game over</p>
+         <span>Press any key to restart</span>
+      </div>
+   </div>
+   <script src="script.js"></script>
+    
   </body>
 </html>
