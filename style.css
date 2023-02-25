@@ -134,3 +134,9 @@ h1 {
 body {
   animation: bodyANI 1s infinite;
 }
+
+
+.catvibing {
+  max-width: 300px;
+  margin: 0 auto;
+}
