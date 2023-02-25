@@ -133,10 +133,33 @@ h1 {
 
 body {
   animation: bodyANI 1s infinite;
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
 }
 
 
-.catvibing img {
+.catvibing {
   max-width: 300px;
   margin: 0 auto;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.mehndi-sahab {
+  max-width: 300px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.mehndi-sahab img, .catvibing img {
+  width:100%;
+}
+
+.snoopdance2 {
+  position: absolute;
+  top: 0px;
 }
