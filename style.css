@@ -1,6 +1,6 @@
 :root {
-  --txt-primary: #535353;
-  --txt-hover: #292929;
+  --txt-primary: #000000;
+  --txt-hover: #000000;
   --background: #F7F7F7;
 }
 
@@ -33,7 +33,8 @@ body {
   position: absolute;
   right: 5vmin;
   top: 1vmin;
-  font-size: .8rem;
+  font-size: 1rem;
+  font-weight: bolder;
 }
 
 .start-message {
@@ -41,7 +42,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: .8rem;
+  font-size: 1rem;
   text-align: center;
   text-transform: uppercase;
 }
@@ -51,17 +52,17 @@ body {
   top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: .8rem;
+  font-size: 1rem;
   text-align: center;
   text-transform: uppercase;
 }
 
 .gameover-message p {
-  letter-spacing: .5em;
+  letter-spacing: .10em;
 }
 
 .gameover-message span {
-  font-size: .6rem;
+  font-size: 2rem;
   text-transform: none;
 }
 
