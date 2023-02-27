@@ -239,3 +239,6 @@ function createCactus() {
 function randomizer(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min); /* choose a number between minimum and maximum */
 }
+
+
+
