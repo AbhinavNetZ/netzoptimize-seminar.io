@@ -154,8 +154,13 @@ body {
   bottom: 0px;
   right: 0px;
 }
+.duck {
+  margin: 150px 150px 0px 150px;
+  max-width: 300px;
+  position: absolute;
+}
 
-.mehndi-sahab img, .catvibing img {
+.mehndi-sahab img, .catvibing img, .duck img {
   width:100%;
 }
 
